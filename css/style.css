@@ -1,3 +1,87 @@
 body {
-  background: linear-gradient(to right, #cb60b3 4%, #951cff 32%, #4e4bed 60%, #4e4bed 60%, #4ef48e 99%);
+  margin: 0;
+  background-color: #ffffff;
   font-family: -system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
+
+h1 {
+  font-size: 36px;
+  font-weight: 400; }
+
+h2 {
+  font-size: 32px;
+  font-weight: 300; }
+
+h4 {
+  font-size: 28px; }
+
+h5 {
+  font-size: 24px; }
+
+h6 {
+  font-size: 20px; }
+
+p {
+  font-size: 16px; }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: calc(1200px - 36px);
+  width: 100%;
+  padding: 0 18px; }
+
+header {
+  width: 100%;
+  height: 100px; }
+
+.container li {
+  display: inline-flex;
+  flex-direction: row; }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.university-brand {
+  background-image: url("../logo.svg");
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  display: block;
+  width: 180px;
+  height: 56px;
+  background-size: contain; }
+
+.uni-header {
+  padding: 14px 0; }
+
+.role-nav {
+  padding: 14px 9px; }
+  .role-nav li:not(:last-child)::after {
+    content: "/";
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin-top: -5px;
+    padding: 0 9px;
+    color: #777; }
+
+.global-nav {
+  padding: 9.33333px 9px;
+  background-color: #383838; }
+
+.section-nav {
+  padding: 9.33333px 9px;
+  background-color: turquoise; }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://farm5.staticflickr.com/4896/46222933232_1e6ac008d5_o_d.jpg");
+  background-position: center;
+  color: #ffffff;
+  margin: 0;
+  max-width: 100%;
+  height: 720px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 112px; }
